@@ -17,7 +17,7 @@ services:
       - "dragonfly_data:/data"
     restart: unless-stopped
   hykey:
-    image: hypixel
+    image: ghcr.io/leon-th/hykey
     restart: unless-stopped
     environment:
       - API_KEY=<KEY>
